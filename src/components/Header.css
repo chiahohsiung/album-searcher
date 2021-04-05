@@ -1,0 +1,41 @@
+.header {
+	height: 6rem;
+	width: 100%;
+	background-color: teal;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__form {	
+	flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__input {
+    background-color: #f0eeee;
+    border: none;
+    padding: .7rem 2rem;
+    border-radius: 100px;
+    width: 80%;
+    transition: all .2s;
+    margin-right: -3.25rem;
+}
+
+.header__input:focus {
+    outline: none;
+    width: 100%;
+}
+
+.header__button {
+    border: none;
+    background-color: #f0eeee;
+}
+
+.button-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: #777;
+}

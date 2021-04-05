@@ -1,0 +1,19 @@
+.card {
+  background-color: white;
+  border: 1px solid teal;
+  border-radius: 3px;
+  flex: 0 0 10rem;
+}
+
+.card__img {
+
+  padding: .5rem;
+}
+
+.card__content {
+  color: black;
+  text-align: center;
+  padding: 0 .5rem .5rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
