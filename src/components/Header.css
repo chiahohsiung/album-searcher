@@ -1,14 +1,14 @@
 .header {
-	height: 6rem;
-	width: 100%;
-	background-color: teal;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  height: 6rem;
+  width: 100%;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.header__form {	
-	flex: 0 0 40%;
+.header__form { 
+  flex: 0 0 40%;
     display: flex;
     align-items: center;
     justify-content: center;
